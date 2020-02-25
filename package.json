@@ -1,5 +1,5 @@
 {
-  "name": "egg-nos",
+  "name": "egg-nos-plugin",
   "version": "1.0.0",
   "description": "NOS SDK plugin for egg.js",
   "eggPlugin": {
@@ -8,7 +8,8 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "nos"
   ],
   "dependencies": {
     "@xgheaven/nos-node-sdk": "^0.2.5"
@@ -45,13 +46,13 @@
     "version": "8, 10"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eggjs/egg-nos.git"
+    "type": "https",
+    "url": "https://github.com/GoodbyeNJN/egg-nos-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/GoodbyeNJN/egg-nos-plugin/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-nos#readme",
+  "homepage": "https://github.com/GoodbyeNJN/egg-nos-plugin#readme",
   "author": "GoodbyeNJN",
   "license": "MIT"
 }
