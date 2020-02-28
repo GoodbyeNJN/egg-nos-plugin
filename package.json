@@ -1,6 +1,6 @@
 {
   "name": "egg-nos-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "NOS SDK plugin for egg.js",
   "eggPlugin": {
     "name": "nos"
