@@ -1,4 +1,5 @@
 'use strict';
+const { NOS } = require('../../lib/nos')
 
 module.exports = {
   /**
@@ -8,6 +9,6 @@ module.exports = {
    * @see App#nos
    */
   get nos() {
-    return this.app.nos;
+    return this.app[NOS];
   },
 };
